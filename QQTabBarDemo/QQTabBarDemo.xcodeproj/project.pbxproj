@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E4E72BD225F036100EA216C /* QQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4E72BC225F036100EA216C /* QQTabBar.m */; };
+		1E7E62FA225F152300ACA66C /* QQTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E62F9225F152300ACA66C /* QQTabBarViewController.m */; };
+		D0E224A0225F5D55007701AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E2249F225F5D55007701AF /* AppDelegate.m */; };
+		D0E224A3225F5D55007701AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E224A2225F5D55007701AF /* ViewController.m */; };
+		D0E224A6225F5D55007701AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E224A4225F5D55007701AF /* Main.storyboard */; };
+		D0E224A8225F5D57007701AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E224A7225F5D57007701AF /* Assets.xcassets */; };
+		D0E224AB225F5D57007701AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E224A9225F5D57007701AF /* LaunchScreen.storyboard */; };
+		D0E224AE225F5D57007701AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E224AD225F5D57007701AF /* main.m */; };
+		D0E224B7225F5DB0007701AF /* QQDrgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E224B6225F5DB0007701AF /* QQDrgButton.m */; };
+		D0E224BA225F6488007701AF /* QQTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E224B9225F6488007701AF /* QQTabBarModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E4E72BB225F036100EA216C /* QQTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQTabBar.h; sourceTree = "<group>"; };
+		1E4E72BC225F036100EA216C /* QQTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQTabBar.m; sourceTree = "<group>"; };
+		1E7E62F8225F152300ACA66C /* QQTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQTabBarViewController.h; sourceTree = "<group>"; };
+		1E7E62F9225F152300ACA66C /* QQTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQTabBarViewController.m; sourceTree = "<group>"; };
+		D0E2249B225F5D55007701AF /* QQTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E2249E225F5D55007701AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0E2249F225F5D55007701AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0E224A1225F5D55007701AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0E224A2225F5D55007701AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0E224A5225F5D55007701AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0E224A7225F5D57007701AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E224AA225F5D57007701AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0E224AC225F5D57007701AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E224AD225F5D57007701AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0E224B5225F5DB0007701AF /* QQDrgButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQDrgButton.h; sourceTree = "<group>"; };
+		D0E224B6225F5DB0007701AF /* QQDrgButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQDrgButton.m; sourceTree = "<group>"; };
+		D0E224B8225F6488007701AF /* QQTabBarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQTabBarModel.h; sourceTree = "<group>"; };
+		D0E224B9225F6488007701AF /* QQTabBarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQTabBarModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E22498225F5D55007701AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E22492225F5D55007701AF = {
+			isa = PBXGroup;
+			children = (
+				D0E2249D225F5D55007701AF /* QQTabBarDemo */,
+				D0E2249C225F5D55007701AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E2249C225F5D55007701AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2249B225F5D55007701AF /* QQTabBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E2249D225F5D55007701AF /* QQTabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D0E224B4225F5D85007701AF /* QQTabBar */,
+				D0E2249E225F5D55007701AF /* AppDelegate.h */,
+				D0E2249F225F5D55007701AF /* AppDelegate.m */,
+				D0E224A1225F5D55007701AF /* ViewController.h */,
+				D0E224A2225F5D55007701AF /* ViewController.m */,
+				1E7E62F8225F152300ACA66C /* QQTabBarViewController.h */,
+				1E7E62F9225F152300ACA66C /* QQTabBarViewController.m */,
+				D0E224A4225F5D55007701AF /* Main.storyboard */,
+				D0E224A7225F5D57007701AF /* Assets.xcassets */,
+				D0E224A9225F5D57007701AF /* LaunchScreen.storyboard */,
+				D0E224AC225F5D57007701AF /* Info.plist */,
+				D0E224AD225F5D57007701AF /* main.m */,
+			);
+			path = QQTabBarDemo;
+			sourceTree = "<group>";
+		};
+		D0E224B4225F5D85007701AF /* QQTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D0E224B5225F5DB0007701AF /* QQDrgButton.h */,
+				D0E224B6225F5DB0007701AF /* QQDrgButton.m */,
+				D0E224B8225F6488007701AF /* QQTabBarModel.h */,
+				D0E224B9225F6488007701AF /* QQTabBarModel.m */,
+				1E4E72BB225F036100EA216C /* QQTabBar.h */,
+				1E4E72BC225F036100EA216C /* QQTabBar.m */,
+			);
+			path = QQTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E2249A225F5D55007701AF /* QQTabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E224B1225F5D57007701AF /* Build configuration list for PBXNativeTarget "QQTabBarDemo" */;
+			buildPhases = (
+				D0E22497225F5D55007701AF /* Sources */,
+				D0E22498225F5D55007701AF /* Frameworks */,
+				D0E22499225F5D55007701AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQTabBarDemo;
+			productName = QQTabBarDemo;
+			productReference = D0E2249B225F5D55007701AF /* QQTabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E22493225F5D55007701AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mmc;
+				TargetAttributes = {
+					D0E2249A225F5D55007701AF = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D0E22496225F5D55007701AF /* Build configuration list for PBXProject "QQTabBarDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E22492225F5D55007701AF;
+			productRefGroup = D0E2249C225F5D55007701AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E2249A225F5D55007701AF /* QQTabBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E22499225F5D55007701AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E224AB225F5D57007701AF /* LaunchScreen.storyboard in Resources */,
+				D0E224A8225F5D57007701AF /* Assets.xcassets in Resources */,
+				D0E224A6225F5D55007701AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E22497225F5D55007701AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7E62FA225F152300ACA66C /* QQTabBarViewController.m in Sources */,
+				D0E224A3225F5D55007701AF /* ViewController.m in Sources */,
+				D0E224AE225F5D57007701AF /* main.m in Sources */,
+				D0E224BA225F6488007701AF /* QQTabBarModel.m in Sources */,
+				D0E224A0225F5D55007701AF /* AppDelegate.m in Sources */,
+				D0E224B7225F5DB0007701AF /* QQDrgButton.m in Sources */,
+				1E4E72BD225F036100EA216C /* QQTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0E224A4225F5D55007701AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E224A5225F5D55007701AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0E224A9225F5D57007701AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E224AA225F5D57007701AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E224AF225F5D57007701AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0E224B0225F5D57007701AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E224B2225F5D57007701AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQTabBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmc.QQTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D0E224B3225F5D57007701AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQTabBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmc.QQTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E22496225F5D55007701AF /* Build configuration list for PBXProject "QQTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E224AF225F5D57007701AF /* Debug */,
+				D0E224B0225F5D57007701AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E224B1225F5D57007701AF /* Build configuration list for PBXNativeTarget "QQTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E224B2225F5D57007701AF /* Debug */,
+				D0E224B3225F5D57007701AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E22493225F5D55007701AF /* Project object */;
+}
